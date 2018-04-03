@@ -1,0 +1,19 @@
+Alice and Bob are avid math game players. They use a modified Fibonacci sequence for one of their games. 
+They start at 0 and 1, however each following number would be calculated based on the sum of the previous two number, but also rotated digit-wise, based on a given rotation step, k. For example: 
+1. Given k=1 the modified (1-step rotated) Fibonacci sequence is： 
+0, 1, 2, 4, 7, 22, 30, 63, 4, 78, 93, 282 ... 
+2. Given k=3 the modified (3-step rotated) Fibonacci sequence is: 
+0, 1, 4, 8, 45, 86, 464, 883, 4670, 8886, 46889, 88008, ... 
+Given a non-negative integer N, and a randomly generated positive number k, Alice wants Bob to calculate the Nth (zero-based) term of Fibonacci Rotated sequence. 
+Your code must help Alice to check whether or not Bob's answer, presented in your code as Y is correct. If Bob gets the right number, your code should print the following message: 
+Congratulations! Item N of the k-step rotated Fibonacci sequence is Y! 
+For example, 
+Congratulations! Item 3 of the 3-step rotated Fibonacci sequence is 8! 
+If Bob doesn't present the correct number, and suppose the correct answer is X, your code must print: 
+Sorry! The N item of k-step rotated Fibonacci sequence is X! 
+For example, 
+Sorry! The 4 item of 3-step rotated Fibonacci sequence is 45! 
+You need to design a class called Puzzle from scratch. Here are the attributes of a Puzzle: 
+ N — a non-negative integer indicating item N of the sequence  k — a positive randomly generated integer  Y — Bob's answer  X — the calculated (correct) answer given N and k 
+ 
+You are allowed to choose one of the two following options to enter the data for a puzzle: 1) via console, using cin, 2) via an input file called Bobin.txt 
