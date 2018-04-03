@@ -1,7 +1,7 @@
 # Merge Overlapping Intervals
-Name:- Shreyat Pandey
 
-Problem Statemnet:-
+
+Problem Statement:-
 Very often you are given a collection and you need to find the superset. Therefore in this problem you will be given a list of intervals and you need to merge all overlapping intervals. 
  
 For example  Given [1,4],[2,5],[6,11],[13,15], you should return [1,5],[6,11],[13,15].  
