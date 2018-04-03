@@ -1,5 +1,14 @@
-# 599-labs
+# Merge Overlapping Intervals
 Name:- Shreyat Pandey
+
+Problem Statemnet:-
+Very often you are given a collection and you need to find the superset. Therefore in this problem you will be given a list of intervals and you need to merge all overlapping intervals. 
+ 
+For example  Given [1,4],[2,5],[6,11],[13,15], you should return [1,5],[6,11],[13,15].  
+ 
+(Only one overlap in this case)  If one interval ends on the same number as the next intervals starts, you should merge them too. 
+ 
+
 Citation and References: -
 To implement the lab, I have taken help from following source
 (a) www.geekforgeeks.com :- In the program zerocount.c, it has been mentioned on the part where I have used it to implement the function.
