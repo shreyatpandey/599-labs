@@ -1,6 +1,4 @@
-//
-// Created by Biru Lyu on 3/26/18.
-//
+
 
 #include "BookList.h"
 #include <cassert>
