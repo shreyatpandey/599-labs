@@ -1,3 +1,5 @@
+/*Give a nxn matrix where n is even, find a pooling layer matrix */
+
 #include<bits/stdc++.h>
 using namespace std;
 int Max = 0;
