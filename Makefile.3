@@ -1,0 +1,21 @@
+CC=g++
+CFLAGS=-c -Wall
+
+
+all: hello
+
+hello: main.o factorial.o hello.o
+	$(CC) -o hello -g main.o factorial.o hello.o
+
+main.o: main.cpp functions.h
+	$(CC) -g $(CFLAGS) main.cpp
+
+factorial.o: factorial.cpp functions.h
+	$(CC) -g $(CFLAGS) factorial.cpp
+
+hello.o: hello.cpp functions.h
+	$(CC) -g  $(CFLAGS) hello.cpp
+
+clean:
+	rm -f *.o all
+

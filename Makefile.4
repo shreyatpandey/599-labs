@@ -1,0 +1,17 @@
+CC=g++
+CFLAGS=-c -Wall
+SOURCES=main.cpp hello.cpp factorial.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=hello
+INCLUDE=-I functions.h
+
+all:$(EXECUTABLE)
+
+$(EXECUTABLE):$(OBJECTS)
+	$(CC) $(CFLAGS) $(INCLUDES) -o $@ $(OBJECTS)
+
+clean:
+	rm -f *.o all
+
+.cpp.o:
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< 
